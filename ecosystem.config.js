@@ -6,8 +6,8 @@ module.exports = {
       watch: true,
       env: {
         NODE_ENV: 'development',
-        FIGMA_API_TOKEN: '',
-        FIGMA_FILE_ID: ''
+        FIGMA_API_TOKEN: 'FIGMA TOKEN HERE',
+        FIGMA_FILE_ID: 'FIGMA FILE ID HERE'
       }
     },
     {
