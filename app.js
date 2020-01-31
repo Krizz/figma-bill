@@ -87,7 +87,7 @@ const makeReactComponents = async () => {
   };
 
   const { data } = await axios.get(
-    `https://api.figma.com/v1/files/36HjsbswPu0Hm9ABSiITH9`,
+    `https://api.figma.com/v1/files/{process.env.FIGMA_FILE_ID}`,
     config
   );
 
